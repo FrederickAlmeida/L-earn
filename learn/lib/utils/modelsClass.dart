@@ -173,6 +173,7 @@ class VolatileChildren extends ValueNotifier<Children> {
     }
     if (!added) {children.activities.add([]);}
     children.acheivments.add(AcheivmentsDate(date: today, id: 4));
+    children.pontuation += 100;
     children.update();
     notifyListeners();
   }
